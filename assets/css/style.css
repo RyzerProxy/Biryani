@@ -1193,7 +1193,7 @@ body.nav-active { overflow: hidden; }
 
 .form-right .headline-1 { margin-block-end: 40px; }
 
-.form-right .contact-label { margin-block-end: 5px; }
+.form-right .contact-label { margin-block-end: 4px; }
 
 .form-right .separator { margin: 20px auto; }
 
@@ -1202,10 +1202,10 @@ body.nav-active { overflow: hidden; }
   line-height: var(--lineHeight-3);
 }
 
-.form-right .body-4:not(:last-child) { margin-block-end: 25px; }
+.form-right .body-4:not(:last-child) { margin-block-end: 35px; }
 
 .form-left,
-.form-right { padding: 40px 20px 30px; }
+.form-right { padding: 40px 20px 50px; }
 
 .input-field[type="date"] {
   text-transform: uppercase;
@@ -1228,7 +1228,8 @@ textarea.input-field {
 
 .form-right {
   background-repeat: repeat;
-  background-position: top left;
+  background-position:;
+  width: 1122px
 }
 
 
@@ -2069,6 +2070,7 @@ textarea.input-field {
 
   .form-left,
   .form-right { padding: 75px 60px; }
+
 
 
 
